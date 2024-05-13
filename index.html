@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Food Carbon Footprint Calculator</h1>
+    <h2 class="subheading">How many meals?</h2>
+    <div class="count-menu-container">
+      <div class="button-row">
+        <button class="count-button">1</button>
+        <button class="count-button">2</button>
+        <button class="count-button">3</button>
+      </div>
+      <div class="button-row">
+        <button class="count-button">4</button>
+        <button class="count-button">5</button>
+        <button class="count-button">6</button>
+      </div>
+    </div>
+    <h2 class="subheading">Choose your food</h2>
+    <div class="food-menu-container">
+      <div class="button-row">
+        <button class="food-button">Vegan</button>
+        <button class="food-button">Vegetarian</button>
+        <button class="food-button">Pescatarian</button>
+      </div>
+      <div class="button-row">
+        <button class="food-button">Low meat</button>
+        <button class="food-button">Medium meat</button>
+        <button class="food-button">Lots of meat</button>
+      </div>
+    </div>
+    <h2 class="subheading">
+      Your carbon footprint
+      <button class="reset-button">Reset</button>
+    </h2>
+    <div class="result-container">
+      <div class="calculation-container">
+        <table class="calculation-table">
+          <tr>
+            <th>Meal</th>
+            <th>Carbon Footprint (kg)</th>
+          </tr>
+        </table>
+      </div>
+      <div class="total-display-container">
+        <h2 class="subheading">Your total:</h2>
+        <p class="total-display">0 kg</p>
+      </div>
+    </div>
+  </body>
+</html>

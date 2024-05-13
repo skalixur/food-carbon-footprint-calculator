@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.calculation-container,
+.total-display-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.total-display-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #ccc;
+}
+
+.total-display {
+  font-size: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.calculation-table {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.subheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.food-button,
+.count-button {
+  font-size: 1.25rem;
+  transition: all 0.3s;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.reset-button {
+  font-size: 0.8rem;
+  transition: all 0.3s;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.food-button:hover,
+.count-button:hover {
+  transition: all 0.3s;
+  scale: 1.05;
+  background-color: #e1e1e1;
+}
+
+.reset-button:hover {
+  transition: all 0.3s;
+  scale: 1.05;
+  background-color: #e1e1e1;
+}
